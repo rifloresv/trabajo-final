@@ -1,96 +1,144 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>Trabajo Final</title>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta charset="utf-8">
+	<title>Trabajo Final Curso Diseño Web</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" href="estilos.css">
-
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+<body>
+<!-- emular barra digital ocean navbar -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+<!--          <a class="navbar-brand" href="#">logo empresa </a> -->
+		<a class="logo" href=""><img src="https://www.digitalocean.com/assets/media/logos-badges/png/DO_Logo_Horizontal_Blue-3db19536.png"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+              </ul>
+              <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Solutions <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#about">Community</a></li>
 
-<body>  
-		<header>
+          </ul>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation"><a href="#">API</a></li>
+            <li role="presentation"><a href="#">Help</a></li>
+            <li role="presentation"><a href="#">Log In</a></li>
+            <li role="presentation" class="active"><a href="#">Sign Up</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
 
+      </div>
+    </nav>
+    <!-- end navbar -->
 
-	<div class="container">
-	  <nav class="navbar navbar-default">
-	    <div class="container-fluid">
-	      <div class="navbar-header">
-	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
-	          <span class="sr-only">Toggle navigation</span>
-	          <span class="icon-bar"></span>
-	          <span class="icon-bar"></span>
-	          <span class="icon-bar"></span>
-	        </button>
-	        <a class="navbar-brand">
-	        <img src="logo.png" alt="Ocean Digital">
-	        </a>
-	      </div>
-	      <div id="navbar1" class="navbar-collapse collapse">
-	        <ul class="nav navbar-nav">
-	          <li class="active up"><a href="#">Products</a></li>
-	          <li><a href="#">Solutions</a></li>
-	          <li><a href="#">Pricing</a></li>
-	          <li><a href="#">Comunity</a></li>
-	          <li class="dropdown">
-	            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-	            <ul class="dropdown-menu" role="menu">
-	              <li><a href="#">Action</a></li>
-	              <li><a href="#">Another action</a></li>
-	              <li><a href="#">Something else here</a></li>
-	              <li class="divider"></li>
-	              <li class="dropdown-header">Nav header</li>
-	              <li><a href="#">Separated link</a></li>
-	              <li><a href="#">One more separated link</a></li>
-	            </ul>
-	          </li>
-	        </ul>
-	      </div>
-	      <!--/.nav-collapse -->
-	    </div>
-	    <!--/.container-fluid -->
-	  </nav>
-	</div>
+<section class="main col-md-12">
 
+<article class="form col-md-6">
+	<h1>Cloud computing,</br>
+designed for developers.</h1>
+	<form class="form-horizontal">
+  <div class="form-group">
+    <div class="inpt col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email Address">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="inpt col-md-10">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+    </div>
+  </div>
 
-
-	    
-	      <div class="jumbotron">
-	        <h1>Navbar example</h1>
-	        <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-	        <p>To see the difference between static and fixed top navbars, just scroll.</p>
-	        <p>
-	          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
-	        </p>
-	      </div>
-
-	      </header>
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
+  <div class="inpt form-group">
+    <div class="btn col-sm-10">
+      <button type="submit" class="btn btn-default">Create an Account</button>
+    </div>
+  </div>
+  <p>By signing up, you agree to the <a href="#">Terms of Service</a>.</p>
+</form>
+</div>
+</article>
 
 
+<article class="form-img col-md-5">
+	<figure>
+		<img src="https://www.digitalocean.com/assets/media/homepage/create-5fe2f870.gif" class="">
+	</figure>
+</article>
+</section>
+
+<section class="features container">
+	<h1>Seamlessly manage your infrastructure</h1>
+	
+	<div class="row">
+        <div class="box col-lg-4">
+          <img src="https://www.digitalocean.com/assets/media/homepage/deploy-in-seconds-a5f58113.svg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Deploy in seconds</h2>
+          <p>Spin up a Droplet and get root access to a compute instance in only 55 seconds.</p>
+          
+        </div><!-- /.col-lg-4 -->
+        <div class="box col-lg-4">
+          <img src="https://www.digitalocean.com/assets/media/homepage/all-ssd-cloud-bb78282d.svg" alt="Generic placeholder image" width="140" height="140">
+          <h2>SSD performance</h2>
+          <p>The first and only all-SSD cloud. Whether it's our Droplet compute instances or Block Storage, everything runs on SSD.</p>
+          
+        </div><!-- /.col-lg-4 -->
+        <div class="box col-lg-4">
+          <img src="https://www.digitalocean.com/assets/media/homepage/flexible-api-55da975f.svg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Simple API</h2>
+          <p>An intuitive API and command line utilities allow you to run large-scale production workloads.</p>
+          
+        </div><!-- /.col-lg-4 -->
+    </div>
+    <div class="row">    
+        <div class="box col-lg-4">
+          <img src="https://www.digitalocean.com/assets/media/homepage/highly-available-storage-fd7639fc.svg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Highly available storage</h2>
+          <p>Never run out of space with the ability to attach multiple highly available volumes up to 16TB to a Droplet.</p>
+          
+        </div><!-- /.col-lg-4 -->
+        <div class="box col-lg-4">
+          <img src="https://www.digitalocean.com/assets/media/homepage/robust-networking-8130c43e.svg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Lightning fast network</h2>
+          <p>Each hypervisor has a fault tolerant and redundant 40Gbps network to ensure uptime and throughput.</p>
+          
+        </div><!-- /.col-lg-4 -->
+        <div class="box col-lg-4">
+          <img src="https://www.digitalocean.com/assets/media/homepage/team-collaboration-898f387c.svg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Teams work together</h2>
+          <p>Easily manage your cloud with your team by inviting others and setting access permissions.</p>
+          
+        </div><!-- /.col-lg-4 -->
+    </section>
 
 
 
 
-		
 
-	</header>
-	<section class="main container">	</section>
-	<footer>	</footer>
 
+<script
+  src="http://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.navbar {
+  background-color: white;
+  padding: 15px 0;
+  border: 0; }
+  .navbar .container .navbar-header .logo img {
+    width: 150px;
+    margin-top: 9px; }
+  .navbar .container .navbar-collapse {
+    font-size: 18px;
+    color: black; }
+
+.main {
+  margin-top: 70px;
+  margin-bottom: 100px;
+  background-color: #66a5ff; }
+  .main .form {
+    margin: 50px;
+    margin-right: 0; }
+    .main .form h1 {
+      color: white;
+      margin-top: 30px; }
+    .main .form .form-horizontal {
+      margin-top: 50px; }
+      .main .form .form-horizontal p {
+        color: white; }
+      .main .form .form-horizontal .form-group .btn button {
+        width: 100%;
+        padding: 15px; }
+      .main .form .form-horizontal .form-group .inpt input {
+        background: transparent;
+        padding: 15px;
+        height: 50px; }
+  .main .form-img {
+    margin: 50px;
+    margin-left: 0; }
+    .main .form-img figure {
+      width: 500px; }
+      .main .form-img figure img {
+        width: 100%; }
+
+.features h1 {
+  text-align: center; }
+
+.features .row .box {
+  margin-top: 20px; }
+  .features .row .box h2 {
+    font-size: 25px; }
+  .features .row .box p {
+    margin-top: 20px;
+    font-size: 15px; }
